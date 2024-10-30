@@ -1,0 +1,10 @@
+### DISSECANDO UMA VARIÁVEL ###
+e = input('Digite algo: ')
+print(f'O tipo desse valor é {type(e)}')
+print(f'Só tem espaços? {e.isspace()}' )
+print(f'É numérico? {e.isnumeric()}')
+print(f'É alfabético? {e.isalpha()}')
+print(f'É alfanumérico? {e.isalnum()}')
+print(f'Está em maiúsculo? {e.isupper()}')
+print(f'Está em minúsculo? {e.islower()}')
+print(f'Está capitalizada? {e.istitle()}')
