@@ -1,4 +1,4 @@
-### EXERCITANDO MÓDULOS EM PYTHON ####
+### FORMATANDO MOEDAS EM PYTHON ###
 
 import moeda
 
