@@ -11,3 +11,4 @@ except urllib.error.URLError:
 else:
     print('\033[32mConsegui acessar o site Eduardo Rodrigues com sucesso!\033[m')
     # print(site.read())
+    
