@@ -1,1 +1,8 @@
 Eduardo;21
+Alice;43
+Carlos;47
+Isabela;14
+Carlos Henrique;14
+Lara;10
+Arthur;4
+Gustavo Guanabara;47
