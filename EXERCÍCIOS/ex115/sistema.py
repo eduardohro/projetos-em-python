@@ -2,11 +2,13 @@ from lib.interface import *
 from lib.arquivo import *
 from time import sleep
 
+arq = 'cursoemvideo.txt'
+
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa', 'Sair do Sistema'])
     if resposta == 1:
         # Opção de listar o conteúdo de um arquivo.
-        
+        lerArquivo(arq)
     elif resposta == 2:
         # Opção de cadastrar uma nova pessoa.
        
@@ -16,3 +18,4 @@ while True:
     else:
         print('\033[31mERRO! Digite uma opção válida!\033[m')
     sleep(1)
+    
