@@ -1,6 +1,5 @@
 from lib.interface import *
 
-
 def arquivoExiste(nome):
     try:
         a = open(nome, 'rt')
@@ -18,7 +17,7 @@ def criarArquivo(nome):
     except:
         print('\033[31mHouve um ERRO na criação do arquivo!\033[m')
     else:
-        print(f'\033[32mArquivo {nome} criado com sucesso!')
+        print(f'\033[32mArquivo {nome} criado com sucesso!\033[m')
 
 
 def lerArquivo(nome):

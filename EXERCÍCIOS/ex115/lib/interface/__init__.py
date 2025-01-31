@@ -1,12 +1,3 @@
-def linha(tam=42):
-    return '-' * tam
-
-
-def cabeçalho(txt):
-    print(linha())
-    print(txt.center(42))
-    print(linha())
-
 def leiaINT(msg):
     """
     -> Solicita ao usuário que insira um número inteiro.
@@ -23,7 +14,17 @@ def leiaINT(msg):
             print('\033[31mERRO! Digite um número inteiro válido!\033[m')
         except KeyboardInterrupt:
             print('\033[31mO usuário preferiu não informar os dados!\033[m')
-            return 0 
+            return 0
+
+
+def linha(tam=42):
+    return '-' * tam
+
+
+def cabeçalho(txt):
+    print(linha())
+    print(txt.center(42))
+    print(linha()) 
         
 
 def menu(lista):
